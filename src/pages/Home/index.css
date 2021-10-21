@@ -1,0 +1,23 @@
+h1{
+  text-align: center;
+}
+
+p{
+  font-size: 24px;
+  text-align: center;
+}
+
+.botoes{
+  display: flex;
+  justify-content: center;
+}
+
+.botoes > .react{
+  width: 100%;
+  max-width: 350px;
+}
+
+.botoes > .node{
+  width: 100%;
+  max-width: 350px;
+}
