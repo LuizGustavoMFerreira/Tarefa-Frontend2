@@ -8,16 +8,30 @@ p{
 }
 
 .botoes{
-  display: flex;
-  justify-content: center;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 10%;
+  -webkit-column-count: 10%;
+  column-count: 10%;
+  padding: 0 50px;
+  text-align: center;
 }
 
-.botoes > .react{
+.react{
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
 }
 
-.botoes > .node{
+.node{
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
+}
+
+@media (max-width: 450px) {
+  .botoes{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
 }
