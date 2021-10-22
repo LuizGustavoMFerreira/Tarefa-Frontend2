@@ -28,7 +28,7 @@ p{
   max-width: 400px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 900px) {
   .botoes{
     -webkit-column-count: 2;
     -moz-column-count: 2;
